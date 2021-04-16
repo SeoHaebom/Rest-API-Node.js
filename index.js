@@ -15,7 +15,7 @@ app.set("json spaces", 2);
 app.use("/", api);
 
 app.get("*", async (req, res) => {
-  res.redirect("https://www.apimau.ga");
+  res.redirect("https://jabami-api.herokuapp.com");
 });
 
 app.listen(PORT, () => {
